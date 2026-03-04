@@ -1,6 +1,6 @@
 # System Components
 
-Your system has 5 main parts.
+This contain 5 main parts.
 
 ### Component 1: Documents
 
