@@ -15,4 +15,34 @@
  9. Sleeps and repeats
 <Br>No user prompts are required for operation.
 
-jaskran
+
+### Flow:
+
+1. **Observe**
+   - Detect new system changes (feature updates, data usage changes, etc.)
+
+2. **Reason**
+   - Analyze changes against regulatory policies (e.g., GDPR, AI Act)
+
+3. **Decide**
+   - Determine if a compliance risk exists
+   - Assign severity + explanation
+
+4. **Store**
+   - Save decision as an auditable record
+
+5. **Repeat**
+   - Runs continuously without human input
+
+---
+
+## 🧩 System Architecture
+[ System Changes ] <br>
+↓ <br>
+[ Agent Loop (FastAPI Worker) ] <br>
+↓ <br>
+[ AI Reasoning Engine (LLM / Gradient AI) ] <br>
+↓ <br>
+[ MongoDB (State + Audit Logs) ] <br>
+↓ <br>
+[ HTMX Dashboard (Observability UI) ] <br>
