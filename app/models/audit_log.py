@@ -1,0 +1,1 @@
+Full audit trail for user interactions, system responses, and other relevant events to ensure transparency and accountability in the system's operations.
