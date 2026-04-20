@@ -1,0 +1,1 @@
+#MongoDB client setup and connection management for the application
